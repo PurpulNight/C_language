@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int day;
-    printf("Mention a day of the week\n");
+    printf("Mention a day of the week(1-7)");
     scanf("%d", &day);
 
     switch(day) {
