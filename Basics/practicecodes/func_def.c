@@ -1,9 +1,14 @@
 #include <stdio.h>
-void hello();
-void hello() {
+void hello(); // Function prototype
+
+
+void hello() {      // Function definition
+
     printf("Hello World!\n");
 }   
+
+
 int main() {
-    hello();
+    hello();    // Function call
     return 0;
 }
