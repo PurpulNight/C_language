@@ -1,17 +1,7 @@
 #include <stdio.h>
-
 int main() {
-    int n;
+    int num = 10;
+    int *ptr = &num;
+    printf('The number stored in num is at address %d: \n', &num);
 
-    while (1) {
-        printf("Enter a number: ");
-        scanf("%d", &n);
-
-        if (n % 7 == 0) {
-            printf("The number is a multiple of 7. Thank you.\n");
-            break;
-        }
-    }
-
-    return 0;
 }
